@@ -28,7 +28,7 @@ app.post('/v1/portfolio/form/submit', async (req, res) => {
     // Email content and settings
     const mailOptions = {
         from: userEmail,  // Sender's email (from the form)
-        to: 'Akanshgoel72@gmail.com',  // Your email address
+        to: 'akanshgoel619@gmail.com',  // Your email address
         subject: 'New Message from Contact Form',
         text: `You have received a new message from ${userName} (${userEmail}):\n\n${Message}`,
     };
